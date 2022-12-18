@@ -1,0 +1,30 @@
+.Mui-yopta-input {
+  &:hover {
+    & .MuiFormLabel-root {
+      color: rgba(0, 0, 0, 0.82);
+    }
+  }
+  & .MuiFormLabel-root {
+    margin-left: 3px;
+  }
+  & .MuiFormLabel-root.Mui-focused {
+    color: #faa60f;
+  }
+
+
+
+  & .MuiInputBase-input {
+    margin-left: 3px;
+  }
+  // & .MuiInputBase-root:hover{
+  //   border-bottom: 2px solid #fff;
+
+  // }
+
+  & .MuiInput-root:before {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  & .MuiInput-root:after {
+    border-bottom: 2px solid #faa60f;
+  }
+}
